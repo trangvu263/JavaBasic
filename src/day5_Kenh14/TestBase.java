@@ -13,4 +13,8 @@ public class TestBase {
         //open page: http://shop.demoqa.com
         driver.get("https://kenh14.vn/");
     }
+
+    public void closeWeb() {
+        driver.close();
+    }
 }

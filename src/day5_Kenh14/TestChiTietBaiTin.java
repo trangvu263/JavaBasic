@@ -25,6 +25,8 @@ public class TestChiTietBaiTin extends TestBase {
         } else {
             System.out.println("Test case failed");
         }
+
+        closeWeb();
     }
 //    private void doTC2() {
 //
